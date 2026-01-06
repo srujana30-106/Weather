@@ -1,5 +1,10 @@
+# Next.js build files
+.next/
+node_modules/
 .env
+.env.local
+.env.*.local
 
-
-
-node_modules
+# OS files
+.DS_Store
+Thumbs.db
