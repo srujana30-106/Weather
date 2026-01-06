@@ -59,7 +59,7 @@ export default function Home() {
   }, [unit]);
 
   return (
-    <main className="max-w-6xl mx-auto p-6 bg-gradient-to-b from-blue-100 to-blue-50 min-h-screen">
+    <main className="w-full min-h-screen px-6 lg:px-16 bg-gradient-to-b from-blue-100 to-blue-50">
       {/* Header */}
       <header className="flex justify-between items-center mb-8">
         <h1 className="text-3xl md:text-4xl font-bold text-blue-900">
