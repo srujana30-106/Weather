@@ -2,11 +2,17 @@ interface Props {
   city: string;
   setCity: (city: string) => void;
   onSearch: () => void;
+  className?: string;
 }
 
-export default function SearchBar({ city, setCity, onSearch }: Props) {
+export default function SearchBar({
+  city,
+  setCity,
+  onSearch,
+  className,
+}: Props) {
   return (
-    <div className="flex gap-2 mb-6">
+    <div className={`flex gap-2 mb-6 ${className ?? ""}`}>
       <input
         value={city}
         onChange={(e) => setCity(e.target.value)}
